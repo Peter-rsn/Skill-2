@@ -155,7 +155,17 @@ public class Main {
                 break;
         }*/
 
-        //
+        //Pole
+        int[] znamky = new int[5];
+        znamky [0] = 3;
+        znamky [1] = 5;
+        znamky [3] = 1;
+        znamky [4] = 2;
+
+
+
+
+
 
 
 
