@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -89,7 +90,7 @@ public class Main {
         // (<18.5) - nadvaha
         // (>18.5 && < 25) - optimalna vaha
         // (>=25) - nadvaha
-         float vyska;
+         /*float vyska;
          float hmotnost;
          float bmi;
         Scanner mujScanner = new Scanner(System.in);
@@ -110,7 +111,22 @@ public class Main {
             System.out.println("Uzivatel ma nadvahu");
         }
 
-        System.out.println(bmi);
+        System.out.println(bmi);*/
+
+      // parne cislo = vyhrava, neparne cislo =  nevyhrava
+        int hodeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        hodeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println("Hodene cislo je:" + hodeneCislo);
+
+        if (hodeneCislo % 2 == 1 ) {
+            System.out.println("Parna - Vyhravas!");
+        }
+        else {
+            System.out.println("Neparna - Prehravas");
+
+        }
 
 
 
