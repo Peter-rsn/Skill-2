@@ -114,7 +114,7 @@ public class Main {
         System.out.println(bmi);*/
 
       // parne cislo = vyhrava, neparne cislo =  nevyhrava
-        int hodeneCislo;
+        /*int hodeneCislo;
         Random nahodnyGenerator = new Random();
 
         hodeneCislo = nahodnyGenerator.nextInt(1,7);
@@ -124,8 +124,35 @@ public class Main {
             System.out.println("Parna - Vyhravas!");
         }
         else {
-            System.out.println("Neparna - Prehravas");
+            System.out.println("Neparna - Prehravas");*/
 
+        // Switch - den v tyzdni
+        Scanner mujScanner = new Scanner(System.in);
+        int cisloDna;
+        System.out.println("Zadaj cislo dna");
+        cisloDna = mujScanner.nextInt();
+        switch (cisloDna){
+            case 1:
+                System.out.println("Je pondelok");
+                break;
+            case 2:
+                System.out.println("Je utorok");
+                break;
+            case 3:
+                System.out.println("Je streda");
+                break;
+            case 4:
+                System.out.println("Je stvrtok");
+                break;
+            case 5:
+                System.out.println("Je piatok");
+                break;
+            case 6:
+                System.out.println("Je sobota");
+                break;
+            case 7:
+                System.out.println("Je nedela");
+                break;
         }
 
 
