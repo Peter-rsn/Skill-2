@@ -156,11 +156,28 @@ public class Main {
         }*/
 
         //Pole
-        int[] znamky = new int[5];
+        /*int[] znamky = new int[5];
         znamky [0] = 3;
         znamky [1] = 5;
         znamky [3] = 1;
-        znamky [4] = 2;
+        znamky [4] = 2;*/
+
+        String [] mena = new String[] {"Peter","Jan","Katka"};
+        System.out.println(mena[0]);
+
+        // Smycky
+        for (int i = 0; i < 10; i++){
+            System.out.println("Hello World");
+
+
+
+        }
+
+
+
+
+
+
 
 
 
