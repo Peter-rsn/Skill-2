@@ -71,8 +71,13 @@ public class Main {
         if(vek >= 18) {
             System.out.println("Uzivatel je dospely");
         }
+        else if(vek >= 0 && vek < 18){
+            System.out.println("Uzivatel je neplnolety");
+        }
+        else {
+            System.out.println("Nejde zadat zaporny vek");
 
-
+        }
 
 
 
