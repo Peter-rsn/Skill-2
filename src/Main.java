@@ -37,6 +37,7 @@ public class Main {
         int prveCislo1;
         int druheCislo2;
 
+
        /* Scanner mujScanner = new Scanner(System.in);
 
         System.out.println("Zadaj prve cislo:");
@@ -51,11 +52,13 @@ public class Main {
         System.out.println(prveCislo * druheCislo);*/
 
         //Uzivatel zada slovo, vo vypise budu vsetky pismena velke
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadaj svoje slovo:");
         String slovo = mujScanner.nextLine();
 
-        System.out.println(slovo.contains("el"));
+        System.out.println(slovo.contains("el"));*/
+
+
 
 
 
