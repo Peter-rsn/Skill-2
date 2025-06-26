@@ -106,6 +106,10 @@ public class Main {
             System.out.println("Uzivatel na optimalnu vahu");
         }
 
+        else if(bmi>=25) {
+            System.out.println("Uzivatel ma nadvahu");
+        }
+
         System.out.println(bmi);
 
 
