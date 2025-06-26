@@ -61,6 +61,22 @@ public class Main {
 
 
 
+         //Feature pre kontrolu veku, bude mat uzivatel 18 a viac vypis do konzoly vitaj v aplikacii
+        int vek;
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadaj svoj vek:");
+
+        vek = mujScanner.nextInt();
+
+        if(vek >= 18) {
+            System.out.println("Uzivatel je dospely");
+        }
+
+
+
+
+
+
 
 
 
