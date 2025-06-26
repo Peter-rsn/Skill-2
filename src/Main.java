@@ -127,7 +127,7 @@ public class Main {
             System.out.println("Neparna - Prehravas");*/
 
         // Switch - den v tyzdni
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         int cisloDna;
         System.out.println("Zadaj cislo dna");
         cisloDna = mujScanner.nextInt();
@@ -153,7 +153,9 @@ public class Main {
             case 7:
                 System.out.println("Je nedela");
                 break;
-        }
+        }*/
+
+        //
 
 
 
