@@ -62,26 +62,51 @@ public class Main {
 
 
          //Feature pre kontrolu veku, bude mat uzivatel 18 a viac vypis do konzoly vitaj v aplikacii
-        int vek;
+        /*int vek;
         Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadaj svoj vek:");
 
         vek = mujScanner.nextInt();
 
-        if(vek >= 18) {
+        if(vek >= 18 && vek < 65) {
             System.out.println("Uzivatel je dospely");
         }
+        else if (vek >= 65){
+            System.out.println("Uzivatel je senior");
+
+
+        }
+
         else if(vek >= 0 && vek < 18){
             System.out.println("Uzivatel je neplnolety");
         }
         else {
             System.out.println("Nejde zadat zaporny vek");
 
+        }*/
+
+        //Vypocet BMI hmotnost/vyska na druhu
+        // (<18.5) - nadvaha
+        // (>18.5 && < 25) - optimalna vaha
+        // (>=25) - nadvaha
+         float vyska;
+         float hmotnost;
+         float bmi;
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadaj vysku");
+        vyska = mujScanner.nextFloat();
+        System.out.println("Zadaj hmotnost");
+        hmotnost = mujScanner.nextFloat();
+        bmi = hmotnost / (vyska * vyska);
+
+        if(bmi < 18.5f) {
+            System.out.println("Uzivatel na podvahu");
+        }
+        else if(bmi>18.5f && bmi<25){
+            System.out.println("Uzivatel na optimalnu vahu");
         }
 
-
-
-
+        System.out.println(bmi);
 
 
 
